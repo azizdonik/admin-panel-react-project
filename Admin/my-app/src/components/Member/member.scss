@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1860px;
+    margin: 8px auto;
+}
+
+.members{
+    width: 500px;
+    margin-top: 1.6rem;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-bottom: 1rem;
+}
+
+.el-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.el-button{
+    width: 100px;
+    height: 30px;    
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    font-size: 0.7rem;   
+    letter-spacing: 1px;
+}
+.el{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.members-text{
+    margin-left: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.h5-title-name{
+    font-weight: 600;
+}
+
+.text-last{
+   font-weight: 600;
+   margin-bottom: 1rem;
+}
+
+.parennt-of-member{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+}
+
+.parent-of-the-texts{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.the-lider-text{
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.the-parent-of-main-section-third{
+    margin-top: 1.6rem;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.elem{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1.9fr 1fr 1fr 1fr;
+}
+
+.image-and-text{
+    display: flex;
+    align-items: center;
+
+}
+
+.elem-title-name{
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+
+
+.btn-status{
+    // color: rgb(192, 44, 44);
+    // background-color: rgba(214, 40, 40, 0.192);
+    border: none;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    padding: 5px 10px;
+}
+
+.first-btn{
+    background-color: rgba(0, 168, 0, 0.178);
+    color: rgb(0, 138, 7);
+}
+
+.second-btn{
+    background-color: rgba(168, 0, 0, 0.144);
+    color: rgb(138, 0, 0);
+}
+
+.third-btn{
+    background-color: rgba(0, 143, 168, 0.109);
+    color: rgb(0, 126, 138);
+}
